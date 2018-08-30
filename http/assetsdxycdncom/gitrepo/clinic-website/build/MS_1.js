@@ -5,7 +5,7 @@ $(function() {
 	t.prototype = {
 		init: function() {
 			var t = this;
-			t.HomeNav(), t.toggleLink(), t.NavCoty(), t.goTop(), t.openNewTarget(), t.otherAnimate(), t.serveList(), t.insuranceList(), t.healthList(), t.healthyList(), t.showServeDesc(), t.insuranceLocal(), t.initBind()
+			t.HomeNav(), t.toggleLink(), t.NavCoty(), t.goTop(), t.otherAnimate(), t.serveList(), t.insuranceList(), t.healthList(), t.healthyList(), t.showServeDesc(), t.insuranceLocal(), t.initBind()
 		},
 		toggleLink: function() {
 			var t = location.host,
@@ -43,7 +43,7 @@ $(function() {
 			t.length && t.find(".insurance_item:odd").css("marginLeft", "35px")
 		},
 		serveList: function() {
-			$('a.topbar_nav_list:contains("å»çæå¡")').hover(function(t) {
+			$('a.topbar_nav_list:contains("医疗服务")').hover(function(t) {
 				var e = $(t.currentTarget),
 					i = e.offset().left - 35,
 					n = $(".dxy_topbar").height(),
@@ -92,7 +92,7 @@ $(function() {
 			})
 		},
 		healthList: function() {
-			$('a.topbar_nav_list:contains("å³äºæä»¬")').hover(function(t) {
+			$('a.topbar_nav_list:contains("特色222")').hover(function(t) {
 				var e = $(t.currentTarget),
 					i = e.offset().left - 35,
 					n = $(".dxy_topbar").height(),
@@ -116,7 +116,7 @@ $(function() {
 			})
 		},
 		healthyList: function() {
-			$('a.topbar_nav_list:contains("å¥åº·ç®¡ç")').hover(function(t) {
+			$('a.topbar_nav_list:contains("健康管理")').hover(function(t) {
 				var e = $(t.currentTarget),
 					i = e.offset().left - 35,
 					n = $(".dxy_topbar").height(),
@@ -191,9 +191,6 @@ $(function() {
 					scrollTop: 0
 				}, 1e3)
 			})
-		},
-		openNewTarget: function() {
-			$(".topbar_nav").find(".topbar_nav_list:eq(2)").attr("target", "_blank")
 		},
 		otherAnimate: function() {
 			$(".index_appoint").waypoint(function() {

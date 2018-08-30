@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<script src="http/assetsdxycdncom/gitrepo/clinic-website/build/MS_13.js"></script>
+		<script src="http/assetsdxycdncom/gitrepo/clinic-website/build/MS_11.js"></script>
+		<script src="http/assetsdxycdncom/gitrepo/clinic-website/build/MS_12.js"></script>
+		
+		<script src="http/assetsdxycdncom/gitrepo/clinic-website/build/MS_1.js"></script>
+	</head>
 	<!-- header -->
 		<div class="dxy_topbar">
 			<div class="dxy_topbar_cont w1">
@@ -22,25 +29,25 @@
 					<span></span>
 				</a>
 				<ul class="topbar_nav fr">
-					<li>
-						<a href="/jiayihui/index.html" class="topbar_nav_list current">首页<span></span></a>
+					<li class="topbar_nav_li">
+						<a href="/jiayihui/index.html" class="topbar_nav_list">首页<span></span></a>
 					</li>
-					<li>
-						<a href="/jiayihui/service.html" class="topbar_nav_list ">医疗服务<span></span></a>
+					<li class="topbar_nav_li">
+						<a href="/jiayihui/service.html" class="topbar_nav_list">医疗服务<span></span></a>
 					</li>
 				
 				
-					<li>
-						<a href="/jiayihui/healthy.html" class="topbar_nav_list ">健康管理<span></span></a>
+					<li class="topbar_nav_li">
+						<a href="/jiayihui/healthy.html" class="topbar_nav_list">健康管理<span></span></a>
 					</li>
-					<li>
-						<a href="/jiayihui/health_knowledge.html" class="topbar_nav_list ">健康传递<span></span></a>
+					<li class="topbar_nav_li">
+						<a href="/jiayihui/health_knowledge.html" class="topbar_nav_list">健康传递<span></span></a>
 					</li>
-					<li>
-						<a href="/jiayihui/about.html" class="topbar_nav_list ">关于我们<span></span></a>
-					</li>
-						<li>
-						<a href="/jiayihui/join_us.html" class="topbar_nav_list ">加入我们<span></span></a>
+					<li class="topbar_nav_li>
+						<a href="/jiayihui/about.html" class="topbar_nav_list">关于我们<span></span></a>
+					</li >
+						<li class="topbar_nav_li">
+						<a href="/jiayihui/join_us.html" class="topbar_nav_list">加入我们<span></span></a>
 					</li>
 					
 				</ul>
@@ -92,4 +99,10 @@
 				</ul>
 			</div>
 		</div>
+		<script>
+			
+			(function() {
+       		 $(".topbar_nav_li a[href='/jiayihui/" + location.href.substring(location.href.lastIndexOf("/") + 1) + "']").addClass("current");
+    		})();
+		</script>
 </html>
