@@ -454,8 +454,10 @@ textarea {
 }
 
 .dxy_topbar .dxy_topbar_cont .dxy_topbar_logo img {
-	width: 124px;
-	height: auto
+     width: 160px;
+    height: auto;
+    margin-left: -90px;
+    margin-top: 15px;
 }
 
 .dxy_topbar .dxy_topbar_cont .topbar_local_btn {
@@ -1973,8 +1975,8 @@ textarea {
 .index_contact .index_map .index_local_hz_1,
 .index_contact .index_map .index_local_hz_2 {
 	position: absolute;
-	left: 185px;
-	top: 117px;
+	left: 582px;
+	top: 217px;
 	cursor: pointer
 }
 
@@ -2556,7 +2558,7 @@ textarea {
 	position: absolute;
 	top: 127px;
 	left: 50%;
-	margin-left: 390px
+	margin-left: 370px
 }
 
 .service_content .service_right ul {
@@ -5224,7 +5226,7 @@ video#moon {
 .health-banner {
 	width: 100%;
 	height: 500px;
-	background-image: url(../img/MS_9.jpg);
+	background-image: url(/jiayihui/image/healthy/healthy-hero.jpg);
 	background-position: center;
 	background-size: auto 100%;
 	text-align: center;
