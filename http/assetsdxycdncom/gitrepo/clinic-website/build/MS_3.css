@@ -1220,7 +1220,7 @@ textarea {
 }
 
 .index_intro {
-	margin-top: -14px
+	margin-top: 85px
 }
 
 .index_intro .bx-controls-direction {
@@ -5271,14 +5271,15 @@ video#moon {
 }
 
 .health-special-item {
-	width: 350px;
-	height: 493px;
+	width: 250px;
+	
 	float: left;
 	box-sizing: border-box;
 	padding: 20px;
 	border-radius: 4px;
 	position: relative;
-	margin: 0 25px 120px;
+	margin: 0 25px;
+	margin-top: 30px;
 	transition: all .3s ease
 }
 
@@ -5300,7 +5301,8 @@ video#moon {
 .health-special-item-desc {
 	font-size: 14px;
 	line-height: 1.5;
-	color: #94a0bb
+	color: #94a0bb;
+	text-align: center
 }
 
 .health-special-item-link {
@@ -7368,4 +7370,29 @@ body {
 	.health_content .health_aside .insurance_list .insurance_list_item .insurance_product_information .health_do .health_do_list label {
 		color: #777
 	}
+	
 }
+.index_intro_txt{
+		
+		font-size: x-large;
+		position: absolute;
+		top:200px;
+		right:20px;
+	}
+	.company_intro_desc{
+		font-size:large;
+	}
+	.company_intro_title{
+		
+		float:left;
+		width:80px; 
+		height:80px; 
+		border-radius:80px; 
+		background:#20b1ad;
+		color:white;
+		
+	}
+.company_intro_desc{
+	text-align: center;
+    margin-top: 25px;
+    font-size:18px;
