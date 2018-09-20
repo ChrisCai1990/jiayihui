@@ -454,9 +454,9 @@ textarea {
 }
 
 .dxy_topbar .dxy_topbar_cont .dxy_topbar_logo img {
-     width: 160px;
+     width: 130px;
     height: auto;
-    margin-left: -90px;
+    margin-left: -50px;
     margin-top: 15px;
 }
 
@@ -2467,13 +2467,11 @@ textarea {
 .service_content {
 	min-height: 50px;
 	position: relative;
-	padding-bottom: 50px
+	
 }
 
 .service_content .service_aside {
-	width: 881px;
-	float: left;
-	margin-top: 0
+
 }
 
 .service_content .service_aside .service_title {
@@ -2492,21 +2490,18 @@ textarea {
 
 .service_content .service_aside .service_list li {
 	display: block;
-	height: 241px;
+	height: 400px;
 	background: #fff;
 	margin-bottom: 25px
 }
 
 .service_content .service_aside .service_list li .service_pic {
-	width: 331px;
-	height: 241px;
+height:400px;
 	float: left
 }
 
 .service_content .service_aside .service_list li .service_list_content {
 	float: left;
-	width: 517px;
-	height: 241px;
 	margin-left: 33px;
 	position: relative
 }
@@ -2526,7 +2521,7 @@ textarea {
 
 .service_content .service_aside .service_list li .service_list_content div {
 	width: 463px;
-	height: 88px;
+	height: 188px;
 	float: left;
 	margin-top: 15px;
 	font-size: 14px;
@@ -2537,7 +2532,9 @@ textarea {
 
 .service_content .service_aside .service_list li .service_list_content div p {
 	margin: 0;
-	line-height: 22px
+	line-height: 22px;
+	position: absolute;
+    top: -300px;
 }
 
 .service_content .service_aside .service_list li .service_list_content .service_list_more {
@@ -2549,7 +2546,7 @@ textarea {
 	color: #fff;
 	position: absolute;
 	left: 0;
-	bottom: 30px
+	top: -100px
 }
 
 .service_content .service_right {
@@ -5249,7 +5246,7 @@ video#moon {
 }
 
 .health-special-title {
-	margin: 80px 0 0;
+	margin: 80px 0 35px;
 	font-size: 36px;
 	text-align: center;
 	position: relative
@@ -5270,7 +5267,7 @@ video#moon {
 
 .health-special-content {
 	width: 1200px;
-	margin: 105px auto 0
+	margin: auto auto 0
 }
 
 .health-special-item {
@@ -5315,8 +5312,8 @@ video#moon {
 	text-decoration: none;
 	text-align: center;
 	line-height: 50px;
-	border: 1px solid #9F8BD8;
-	color: #9F8BD8;
+	border: 1px solid #20b1ad;
+	color: #20b1ad;
 	position: absolute;
 	bottom: 20px;
 	left: 50%;
@@ -5325,7 +5322,7 @@ video#moon {
 }
 
 .health-special-item-link:hover {
-	background: #9F8BD8;
+	background: ##20b1ad;
 	color: #fff
 }
 
