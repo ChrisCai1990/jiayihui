@@ -1813,10 +1813,10 @@ textarea {
 	float: left;
 	width: 353px;
 	height: 467px;
-	border-top: 1px solid #7a60a8;
-	border-bottom: 1px solid #7a60a8;
-	border-left: 1px solid #7a60a8;
-	border-right: 1px solid #7a60a8;
+	border-top: 1px solid #20b1ad;
+	border-bottom: 1px solid #20b1ad;
+	border-left: 1px solid #20b1ad;
+	border-right: 1px solid #20b1ad;
 	text-align: center;
 	margin-left: 26px
 }
@@ -5322,7 +5322,7 @@ video#moon {
 }
 
 .health-special-item-link:hover {
-	background: ##20b1ad;
+	background: #20b1ad;
 	color: #fff
 }
 
