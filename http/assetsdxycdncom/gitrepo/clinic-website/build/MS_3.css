@@ -5271,8 +5271,8 @@ video#moon {
 }
 
 .health-special-item {
-	width: 250px;
-	
+	width: 350px;
+	height: 493px;
 	float: left;
 	box-sizing: border-box;
 	padding: 20px;
