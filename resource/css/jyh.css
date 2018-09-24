@@ -1839,11 +1839,23 @@ textarea {
 	height: 36px
 }
 
+.index_welcome .index_welcome_comtent .index_welcome_list li .index_welcome_logoBox .index_welcome_logo_1 {
+	background: url(../img/MS_138.png);
+	background-size: cover;
+	background: url(../img/MS_142.png)\9
+}
 
+.index_welcome .index_welcome_comtent .index_welcome_list li .index_welcome_logoBox .index_welcome_logo_2 {
+	background: url(../img/MS_137.png);
+	background-size: cover;
+	background: url(../img/MS_6.png)\9
+}
 
-
-
-
+.index_welcome .index_welcome_comtent .index_welcome_list li .index_welcome_logoBox .index_welcome_logo_3 {
+	background: url(../img/MS_136.png);
+	background-size: cover;
+	background: url(../img/MS_140.png)\9
+}
 
 .index_welcome .index_welcome_comtent .index_welcome_list li .index_welcome_logoBox span {
 	font-size: 20px;
@@ -7440,11 +7452,11 @@ margin-bottom: 30px;
 .more_info{
 	text-decoration: none;
     font-size: 16px;
-    padding: 8px 38px;
+    padding: 8px 28px;
     border-radius: 5px;
     background: #20b1ad;
     color: #fff;
-    position: absolute;
-    left: 0;
-    top: -100px;
+    position: relative;
+    left: 46px;
+    top:20px
     }
