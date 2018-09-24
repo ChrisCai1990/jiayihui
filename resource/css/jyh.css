@@ -2188,7 +2188,7 @@ textarea {
 
 .detail_content .content_detail {
 	width: 100%;
-	height: 511px;
+	height: 380px;
 	overflow: hidden;
 	position: relative;
 	background: #fff;
@@ -7424,7 +7424,7 @@ margin-bottom: 30px;
 .jyc_intro_txt{
 	color: #f9f7f7;
     position: absolute;
-    top: 200px;
+    top: 260px;
     right: 150px;
     font-size: 32px;
    

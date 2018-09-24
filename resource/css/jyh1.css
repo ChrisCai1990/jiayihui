@@ -1,0 +1,88 @@
+
+.index_intro_txt{
+		
+		font-size: x-large;
+		position: absolute;
+		top:200px;
+		right:20px;
+		
+	}
+	.company_intro_desc{
+		font-size:large;
+	}
+	.company_intro_title{
+		
+		float:left;
+		width:80px; 
+		height:80px; 
+		border-radius:80px; 
+		background:#20b1ad;
+		color:white;
+		
+	}
+.company_intro_desc{
+	text-align: center;
+    margin-top: 25px;
+    font-size:18px;
+    }
+.jyc_intro{
+	
+	margin-top: 85px;
+	
+margin-bottom: 30px;
+}
+.jyc_intro img{
+	
+	width:1280px;
+}
+
+.jyc_intro_txt .jyc_feature{
+	
+	font-size: 22px;	
+	margin-top: 20px;
+}
+
+.jyc_intro_txt .jyc_feature div{
+	margin-right: 0px;
+	
+}
+
+.jyc_intro_txt{
+	color: #f9f7f7;
+    position: absolute;
+    top: 200px;
+    right: 150px;
+    font-size: 32px;
+   
+}
+
+.jyc_intro_txt p{
+	
+	 text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+   	 margin: 0;
+}
+
+.jyc_intro_txt a{
+    font-size: 12px;
+    color: #f9f7f7;
+    padding: 7px 37px;
+    background: #20b1ad;
+    border-radius: 4px;
+    display: block;
+    text-decoration: none;
+    width: 58px;
+    text-align: center;
+    margin-top: 22px!important
+}
+
+.more_info{
+	text-decoration: none;
+    font-size: 16px;
+    padding: 8px 28px;
+    border-radius: 5px;
+    background: #20b1ad;
+    color: #fff;
+    position: relative;
+    left: 46px;
+    top:20px
+    }
