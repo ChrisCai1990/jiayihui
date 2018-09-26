@@ -1,102 +1,44 @@
 <!DOCTYPE html>
 <html>
-	
-	<!-- header -->
-		<div class="dxy_topbar">
-			<div class="dxy_topbar_cont w1">
-				<!-- 移动端欢迎 -->
-				<span class="dxy_topbar_welcome">欢迎来到嘉医汇</span>
-				<!-- logo -->
-				<h1 class="dxy_topbar_logo fl">
-            <a href="/jiayihui/index.html"><img src="/jiayihui/image/logo-header.jpg" alt="嘉医汇"></a>
-        </h1>
-				
-				<a href="#" class="topbar_nav_btn">
-					<span></span>
-				</a>
-				<ul class="topbar_nav fr">
-					<li class="topbar_nav_li">
-						<a href="/jiayihui/index.html" class="topbar_nav_list">首页<span></span></a>
-					</li>
-					<li class="topbar_nav_li">
-						<a href="/jiayihui/jyclinic.html" class="topbar_nav_list">嘉医诊所<span></span></a>
-					</li>
-				
-				
-					<li class="topbar_nav_li">
-						<a href="under_contribution.html" class="topbar_nav_list">嘉医跨境医疗<span></span></a>
-					</li>
-					<li class="topbar_nav_li">
-						<a href="under_contribution.html" class="topbar_nav_list">嘉医学院<span></span></a>
-					</li>
-					<li class="topbar_nav_li">
-						<a href="under_contribution.html" class="topbar_nav_list">嘉医云管家<span></span></a>
-					</li >
-					<li class="topbar_nav_li">
-						<a href="under_contribution.html" class="topbar_nav_list">嘉医养老<span></span></a>
-					</li >
+
+	<div class="breadcrumb">
+		<div class="breadcrumb_content">
+			<!--<span class="jyh_welcome">欢迎来到嘉医汇</span>-->
+			<div class="jyh_logo float_left">
+            		<a href="index.html"><img src="image/logo-header.jpg" alt="嘉医汇"></a>
+      	   </div>
+			<ul class="breadcrumb_nav float_right">
+				<li class>
+					<a href="index.html">首页<span></span></a>
+				</li>
+				<li>
+					<a href="jyclinic.html">嘉医诊所<span></span></a>
+				</li>
+
+				<li>
+					<a href="under_contribution.html">嘉医跨境医疗<span></span></a>
+				</li>
+				<li>
+					<a href="under_contribution.html">嘉医学院<span></span></a>
+				</li>
+
+				<li>
+					<a href="under_contribution.html">嘉医健康险<span></span></a>
+				</li>
+
+				<li>
+					<a href="under_contribution.html">加入我们<span></span></a>
+				</li>
+
+			</ul>	
+
 			
-						<li class="topbar_nav_li">
-						<a href="under_contribution.html" class="topbar_nav_list">加入我们<span></span></a>
-					</li>
-					
-				</ul>
-
-				<!-- 医疗服务下拉菜单 -->
-				<!--<ul class="J-serve-list">
-					
-			
-					<li>
-						<a href="/jiayihui/article/detail/category/service/id/34.html"><span>家庭医生</span></a>
-						</a>
-					</li>
-					<li>
-						<a href="/jiayihui/article/detail/category/service/id/35.html"><span>妇 科</span></a>
-						</a>
-					</li>
-					<li>
-						<a href="/jiayihui/article/detail/category/service/id/96.html"><span>儿童发育评估</span></a>
-						</a>
-					</li>
-					<li>
-						<a href="/jiayihui/article/detail/category/service/id/97.html"><span>成人健康管理</span></a>
-						</a>
-					</li>
-					<li>
-						<a href="/jiayihui/article/detail/category/service/id/99.html"><span>备孕计划</span></a>
-						</a>
-					</li>
-					<li>
-						<a href="/jiayihui/article/detail/category/service/id/98.html"><span>体重管理</span></a>
-						</a>
-					</li>
-				</ul>-->
-
-				<!-- 健康管理下拉菜单 -->
-				<ul class="J-health-list">
-					<li>
-						<a href="/jiayihui/story.html">诊所故事</a>
-					</li>
-				</ul>
-
-				<!-- 健康管理下拉菜单 -->
-				<ul class="J-healthy-list">
-					
-					<li>
-						<!--<a href="/jiayihui/healthy_business.html">企业健康管理</a>-->
-						<a href="/jiayihui/healthy_weight.html">体重管理</a>
-						<a href="/jiayihui/healthy_diabetes.html">糖尿病管理</a>
-						<a href="/jiayihui/healthy_diabetes.html">睡眠管理</a>
-						<a href="/jiayihui/healthy_diabetes.html">压力管理</a>
-						
-					</li>
-				</ul>
-			</div>
 		</div>
-		<script>
-			
-			(function() {
-       		 $(".topbar_nav_li a[href='/jiayihui/" + location.href.substring(location.href.lastIndexOf("/") + 1) + "']").addClass("current");
-    		})();
-		</script>
+	</div>
+	<script>
+		(function() {
+			$(".topbar_nav_li a[href='/jiayihui/" + location.href.substring(location.href.lastIndexOf("/") + 1) + "']").addClass("current");
+		})();
+	</script>
+
 </html>

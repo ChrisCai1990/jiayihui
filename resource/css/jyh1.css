@@ -25,12 +25,7 @@
     margin-top: 25px;
     font-size:18px;
     }
-.jyc_intro{
-	
-	margin-top: 85px;
-	
-margin-bottom: 30px;
-}
+
 .jyc_intro img{
 	
 	width:1280px;
@@ -86,3 +81,42 @@ margin-bottom: 30px;
     left: 46px;
     top:20px
     }
+    
+/*jiayihui - common*/
+.float_left{
+	float:left;
+}
+.float_right{
+	float:right;
+}
+/*jiayihui - header.jsp*/
+.jyh_logo img{
+	width: 130px;
+    height: auto;
+	padding:15px 15px;
+}
+.breadcrumb {
+	height: 75px;
+	background: #fefefe;
+	position: fixed;
+	top: 0;
+	left: 0;
+	box-shadow: 0 1px 1px rgba(214, 214, 214, .3);
+	z-index: 400;
+	width: 100%
+}
+.breadcrumb_nav{	
+	padding: 15px 100px;
+}
+.breadcrumb_nav li{
+	float: left; 
+    list-style: none;
+}
+.breadcrumb_nav li a{
+	color: #333;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+/*jiayihui - index.jsp*/
+

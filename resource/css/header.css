@@ -1,0 +1,121 @@
+/*jiayihui - common*/
+.float_left{
+	float:left;
+}
+.float_right{
+	float:right;
+}
+body,
+button,
+input,
+select,
+textarea {
+	margin: 0
+}
+body{
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #f8f8f8;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.jyh_button {
+	text-decoration: none;
+	font-size: 14px;
+	padding: 8px 28px;
+	border-radius: 5px;
+	background: #20b1ad;
+	color: #fff;
+	position: relative;
+	left: 46px;
+	top: 20px
+}
+.overflow {
+    overflow: hidden;
+}
+.section_title{
+	
+	
+    font-size: 30px;
+    text-align: center;
+}
+
+.text_font_midium {
+	font: 18px/1.5 "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "", Arial, sans-serif!important;
+	color: #333;
+}
+
+.width1 {
+    width: 1125px;
+    margin: 0 auto;
+}
+/*jiayihui - header.jsp*/
+.jyh_logo img{
+	width: 130px;
+    height: auto;
+	padding:15px 15px;
+}
+.breadcrumb {
+	height: 75px;
+	background: #fefefe;
+	position: fixed;
+	top: 0;
+	left: 0;
+	box-shadow: 0 1px 1px rgba(214, 214, 214, .3);
+	z-index: 400;
+	width: 100%
+}
+.breadcrumb_nav{	
+	padding: 25px 100px;
+}
+.breadcrumb_nav li{
+	float: left; 
+    list-style: none;
+}
+.breadcrumb_nav li a{
+	color: #333;
+    text-decoration: none;
+    margin-left: 50px;
+}
+/*jiayihui - header.jsp*/
+.footer {
+	height: 90px;
+	width: 100%;
+	background: #20b1ad;
+	margin-top: 20px;
+}
+
+.footer .footer_content .copyright {
+	color: #fbfbfc;
+	letter-spacing: 1px;
+	display: block;
+	float:left;
+	font-size: 12px;
+	padding-top: 45px;
+}
+.footer .footer_content .copyright a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #fbfbfc!important;
+	
+}
+.contact_us{
+	color: #fbfbfc;
+	letter-spacing: 1px;
+	display: block;
+	float:right;
+	font-size: 12px;
+	padding-top: 35px;
+}
+
+/*under contribution*/
+.under_contribution{
+	margin-top: 95px;
+    width: 1280px;
+    height: 500px;
+    background: url(../img/under_contribution.jpg)no-repeat center center;
+	
+}
