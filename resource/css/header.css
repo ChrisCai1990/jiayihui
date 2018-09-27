@@ -53,6 +53,9 @@ ul{
     margin: 0 auto;
 }
 /*jiayihui - header.jsp*/
+.jyh_welcome{
+	display:none ;
+}
 .jyh_logo img{
 	width: 130px;
     height: auto;
@@ -68,6 +71,8 @@ ul{
 	z-index: 400;
 	width: 100%
 }
+
+
 .breadcrumb_nav{	
 	padding: 25px 100px;
 }
@@ -80,6 +85,96 @@ ul{
     text-decoration: none;
     margin-left: 50px;
 }
+
+/*jiayihui - header.jsp mobile*/
+
+
+
+    
+@media (max-width: 770px){
+	.jyh_welcome{
+   		display: block!important;
+   		text-align: center;
+	}
+	.jyh_logo{
+		display:none;
+	}
+    
+	.breadcrumb_nav_btn{
+		display: inline-block;
+	    position: absolute;
+	    right: 17px;
+	    top: 32px;
+	}
+	.breadcrumb_nav{
+        
+		
+		position: absolute;
+        top: 65px;
+        width: 100%;
+        height: 602px;
+        margin: 0;
+        padding: 0;
+        display: none;
+        background: #fefefe;
+        border-top: 1px solid #ccc;
+	}	
+    
+	.breadcrumb_nav li{
+		list-style: none;
+	    display: block;
+	    width: 100%;
+	}
+	.breadcrumb_nav li a{
+		display: inline-block;
+    width: 90%;
+    height: 75px;
+    z-index: 400;
+    text-align: left;
+    text-decoration: none;
+    color: #323232;
+    font-size: 24px;
+    line-height: 75px;
+    background: #fefefe;
+    border-bottom: 1px solid #ededed;
+    position: relative;
+    margin-left: 0;
+
+	}
+	
+	.breadcrumb{
+		width: 100%;
+	    height: 65px;
+	    font-size: 16px;
+	    color: #000;
+	    line-height: 65px;
+	    text-align: center;
+	    position: relative;
+	    top: 0;
+	    background: #fefefe;
+	    opacity: .98;
+	    overflow: visible!important;
+	}
+
+	.breadcrumb_nav_btn span {
+	    position: relative;
+	    display: block;
+	    width: 25px;
+	    height: 15px;
+	    border-top: 2px solid #5b5b5b;
+	    transition: all .3s linear;
+	}
+	
+	.section_title{
+	
+	
+    font-size: 30px;
+    text-align: center;
+}
+}
+
+
+
 /*jiayihui - header.jsp*/
 .footer {
 	height: 90px;

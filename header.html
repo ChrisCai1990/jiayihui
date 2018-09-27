@@ -3,10 +3,16 @@
 
 	<div class="breadcrumb">
 		<div class="breadcrumb_content">
-			<!--<span class="jyh_welcome">欢迎来到嘉医汇</span>-->
+			<span class="jyh_welcome">欢迎来到嘉医汇</span>
 			<div class="jyh_logo float_left">
             		<a href="index.html"><img src="image/logo-header.jpg" alt="嘉医汇"></a>
       	   </div>
+      	   
+      	   <!-- 移动导航按钮 -->
+	        <a href="#" class="breadcrumb_nav_btn">
+	            <span></span>
+	        </a>
+        
 			<ul class="breadcrumb_nav float_right">
 				<li class>
 					<a href="index.html">首页<span></span></a>
@@ -20,6 +26,9 @@
 				</li>
 				<li>
 					<a href="under_contribution.html">嘉医学院<span></span></a>
+				</li>
+		<li>
+					<a href="under_contribution.html">嘉医养老<span></span></a>
 				</li>
 
 				<li>
@@ -39,6 +48,7 @@
 		(function() {
 			$(".topbar_nav_li a[href='/jiayihui/" + location.href.substring(location.href.lastIndexOf("/") + 1) + "']").addClass("current");
 		})();
+		
 	</script>
-
+	<script src="resource/js/jyh.js"></script>
 </html>

@@ -140,13 +140,13 @@ $(function() {
 			})
 		},
 		HomeNav: function() {
-			$(".topbar_nav_btn").eq(0).toggle(function() {
-				return $(this).parent().find(".topbar_nav").eq(0).animate({
+			$(".breadcrumb_nav_btn").eq(0).toggle(function() {
+				return $(this).parent().find(".breadcrumb_nav").eq(0).animate({
 					height: "toggle",
 					opacity: "toggle"
 				}, "fast"), $(this).addClass("active"), !1
 			}, function() {
-				return $(this).parent().find(".topbar_nav").eq(0).animate({
+				return $(this).parent().find(".breadcrumb_nav").eq(0).animate({
 					height: "toggle",
 					opacity: "toggle"
 				}, "fast"), $(this).removeClass("active"), !1
