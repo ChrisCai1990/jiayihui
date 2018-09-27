@@ -144,7 +144,9 @@ line-height:20px ;
 		width: 100%;
 	    left: calc(50% - 400px);
 	}
-	
+	.width1{
+		width: 100%;
+	}
 
 .index_comp_desc{
 	
