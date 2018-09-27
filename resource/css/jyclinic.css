@@ -186,24 +186,9 @@
 	right: 20px;
 }
 
-.company_intro_desc {
-	font-size: large;
-}
 
-.company_intro_title {
-	float: left;
-	width: 80px;
-	height: 80px;
-	border-radius: 80px;
-	background: #20b1ad;
-	color: white;
-}
 
-.company_intro_desc {
-	text-align: center;
-	margin-top: 25px;
-	font-size: 18px;
-}
+
 
 .jyc_intro img {
 	width: 1280px;
@@ -244,3 +229,56 @@
 	margin-top: 22px!important
 }
 
+
+@media (max-width: 770px){ 
+	.jyc_intro img{
+		width:100%;
+	}
+	.jyc_intro_txt{
+		display:none;
+	}
+	
+	.fd_service_img img{
+		width:100%;
+	}
+	.fd_service_intro_1{
+	width: 100%;
+    background: #fff;
+	
+}
+.fd_service_intro_2{
+	width: 100%;
+    background: #e5e1f0;
+	
+}
+	.why_jyc_list li {
+	list-style: none;
+	float: left;
+	width: 90%;
+	height: 467px;
+	border-top: 1px solid #20b1ad;
+	border-bottom: 1px solid #20b1ad;
+	border-left: 1px solid #20b1ad;
+	border-right: 1px solid #20b1ad;
+	text-align: center;
+	margin-left: 5%;
+}
+
+.special_service_content{
+	
+	width:100%;
+}
+.special_service_item{
+	margin: 0;
+	width:100%;
+}
+.special_service_item img{
+	
+	width:100%;
+	height:auto;
+}
+.special_service_item div{
+	
+	width: 100%;
+}
+}

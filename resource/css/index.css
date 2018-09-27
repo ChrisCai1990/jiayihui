@@ -144,9 +144,7 @@ line-height:20px ;
 		width: 100%;
 	    left: calc(50% - 400px);
 	}
-	.width1{
-		width: 100%;
-	}
+	
 
 .index_comp_desc{
 	
@@ -235,8 +233,9 @@ line-height:20px ;
     }
     
    .bodicenter{
-   	width: 100%;
-   	height:100%;
+   	width: 90%;
+   	height:90%;
+   	padding: 20px;
    }
    .jychz{
    	display:none;
