@@ -135,7 +135,51 @@ line-height:20px ;
     	width: 430px;height:340px;margin-right: 20px;
     	
     }
+    
+    
+.jyc_intro img {
+	width: 1280px;
+}
+
+.jyc_intro_txt .jyc_feature {
+	font-size: 22px;
+	margin-top: 20px;
+}
+
+.jyc_intro_txt .jyc_feature div {
+	margin-right: 0px;
+}
+
+.jyc_intro_txt {
+	color: #f9f7f7;
+	position: absolute;
+	top: 200px;
+	right: 150px;
+	font-size: 32px;
+}
+
+.jyc_intro_txt p {
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+	margin: 0;
+}
+
+.jyc_intro_txt a {
+	font-size: 12px;
+	color: #f9f7f7;
+	padding: 7px 37px;
+	background: #20b1ad;
+	border-radius: 4px;
+	display: block;
+	text-decoration: none;
+	width: 58px;
+	text-align: center;
+	margin-top: 22px!important
+}
   @media (max-width: 770px){ 
+  	
+  	.jyc_intro_txt{
+  		display:none;
+  	}
   	.index_banner{
   		margin: 0;
   	}
